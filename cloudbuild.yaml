@@ -16,5 +16,5 @@ steps:
 # Optionally, you can specify the build timeout and other settings.
 # timeout: 1200s
 # queueTtl: 3600s
-# options:
-#   substitutionOption: ALLOW_LOOSE
+options:
+  logging : CLOUD_LOGGING_ONLY
