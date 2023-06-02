@@ -7,7 +7,7 @@ steps:
 
 # Deploy to App Engine
   - name: 'gcr.io/cloud-builders/gcloud' 
-    args: ['app', 'deploy', 'app.yaml', '--version', '1.0.0', '--project', 'reacthomeloan'] 
+    args: ['app', 'deploy', 'app.yaml', '--version', '1-0-0', '--project', 'reacthomeloan'] 
 # Specify substitutions for dynamic values
 # substitutions:
 #   _PROJECT_ID: YOUR_PROJECT_ID
