@@ -18,4 +18,3 @@ steps:
 # queueTtl: 3600s
 # options:
 #   substitutionOption: ALLOW_LOOSE
-#   logging: LEGACY
